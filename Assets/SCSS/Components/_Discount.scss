@@ -1,0 +1,29 @@
+// Discount
+.discount {
+	// discount__container
+	&__container {
+		position: relative;
+		background-color: var(--container-color);
+		padding: 2rem 1.5rem;
+		border-radius: 0.75rem;
+	}
+
+	// discount__title
+	&__title {
+		font-size: var(--h3-font-size);
+		margin-bottom: var(--mb-0-75);
+	}
+
+	// discount__description
+	&__description {
+		margin-bottom: var(--mb-1);
+	}
+
+	// discount__image
+	&__image {
+		width: 300px;
+		position: absolute;
+		top: 4rem;
+		right: -11rem;
+	}
+}

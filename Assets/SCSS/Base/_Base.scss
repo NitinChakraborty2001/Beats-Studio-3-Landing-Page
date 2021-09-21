@@ -1,0 +1,55 @@
+/* Reset */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* HTML */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+	margin: var(--header-height) 0 0 0;
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+	background-color: var(--body-color);
+	color: var(--text-color);
+}
+
+/* Heading */
+h1,
+h2,
+h3 {
+	color: var(--title-color);
+}
+
+/* Unordered List */
+ul {
+	list-style: none;
+}
+
+/* Anchor Element */
+a {
+	text-decoration: none;
+}
+
+/* Button & Input Element */
+button,
+input {
+	border: none;
+	outline: none;
+}
+
+/* Button */
+button {
+	cursor: pointer;
+}
+
+/* Image */
+img {
+	max-width: 100%;
+	height: auto;
+}
